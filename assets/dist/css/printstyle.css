@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	font-size:11pt;
+}
+
+@page{
+	size:  auto;   /* auto is the initial value */
+	margin: 0mm;  /* this affects the margin in the printer settings */
+	margin-top:61mm;
+}
+
+.legalWrapper{
+	width:216mm;
+	height:356mm;
+	border:0px solid black;
+}
+
+.contentWrapper{
+	margin-left:18mm;
+	margin-right:18mm;
+	line-height:16px;
+}
+
+.noPerihalTanggal{
+	width:100%;
+	border:0px solid red;
+	float:left;
+	padding-bottom:6mm;
+}
+
+.noPerihal{
+	float:left;
+	width:59%;
+}
+
+.tanggal{
+	float:right;
+	width:40%;
+	text-align:right;
+}
+
+.kepadaYth{
+	width:100%;
+	padding-bottom:6mm;
+	border:0px solid cyan;
+}
+
+.kepadaYth label{
+	font-weight:700;
+}
+
+.paragrafSatu{
+	width:100%;
+	padding-bottom:3mm;
+	border:0px solid cyan;
+	text-align: justify;
+}
+
+.paragrafDua{
+	width:100%;
+	padding-bottom:3mm;
+	text-align:justify;
+}
+
+.paragrafTiga{
+	width:100%;
+	padding-bottom:3mm;
+	text-align:justify;
+}
+
+.prodiPil{
+	float:left;
+	width:100%;
+	padding-bottom:3mm;
+	border:0px solid green;
+}
+
+.romanNum{
+	list-style-type: lower-roman;
+}
+
+.romanNum li{
+	margin-bottom:3mm;
+}
+
+.discPoint{
+	list-style-type: disc;
+}
+
+.arabicNum li{
+	margin-bottom:1mm;
+}
+
+.firstList li{
+	margin-left:20px;
+}
+
+.secondList li{
+	margin-left:30px;
+}
+
+.boxTtd{
+	float:left;
+	width:100%;
+	padding-bottom:3mm;
+	border:0px solid cyan;	
+}
+
+.ttdCont{
+	float:right;
+	width:49.5%;
+}
+
+.catatanText{
+	float:left;
+	width:2.68in;
+}
+
+.catatanText{
+	float:left;
+	padding-top:0.75in;
+	text-align:justify;
+	font-size:9pt;
+}
+
+.imgTtd{
+	width:1.25in;
+}
+
+.centeredText{
+	text-align:center;
+}
+
+.underlinedText{
+    text-decoration: underline;
+}
+
+
+/*
+teextetxtettx
+*/
+
+.noHalTitle{
+	float:left;
+	width:35px;
+}
+
+.noHalColon{
+	float:left;
+	width:7px;
+}
+
+.noHalText{
+	float:left;
+	width:300px;
+}
+
+.kepadaYthSubtitle{
+	float:left;
+	width:115px;
+}
+
+.kepadaYthColon{
+	float:left;
+	width:1cm;
+}
+
+.kepadaYthText{
+	float:left;
+	width:400px;
+}
+
+.prodiPilSubtitle{
+	float:left;
+	width:115px;
+}
+
+.prodiPilColon{
+	float:left;
+	width:1cm;
+}
+
+.prodiPilText{
+	float:left;
+	width:400px;
+}
+
+.clear{
+	clear:both;
+}

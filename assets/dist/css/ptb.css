@@ -1,0 +1,14 @@
+.hovering{
+	transition: ease-out 0.2s;
+}
+.hovering:hover{
+	background:linear-gradient(to right,#baf2ff,#fff);
+	transition: ease-out 0.2s;
+}
+
+.with-bottom-border{
+	border-bottom:1px solid transparent; 
+	border-image: radial-gradient( #000 , #fff);
+	margin:auto; 
+	border-image-slice: 1;
+}
